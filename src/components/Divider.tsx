@@ -1,5 +1,7 @@
+import styles from '../../styles/Home.module.css'
+
 export const Divider = () => {
   return (
-    <div></div>
+    <div className={styles.divider}></div>
   )
 }

@@ -5,7 +5,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { rootReducer } from '../reducers/reducers';
 
 export const store = createStore(
-  rootReducer,
+  rootReducer, // combined reducers can be used 
   composeWithDevTools(applyMiddleware(thunkMiddleware)),
 );
 
